@@ -1,18 +1,16 @@
-name: Build and Deploy
-on: [push]
-permissions:
-  contents: write
+name: Deploy de la pagina
+on:
+  push:
+    branches:
+      - main
 jobs:
-  build-and-deploy:
-    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+  deploy-page:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          branch: gh-pages
-          folder: . # The folder the action should deploy.
-          config: baseUrl=/
+        branch: gh-pages
