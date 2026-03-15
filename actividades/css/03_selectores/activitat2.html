@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad 3 - Más selectores</title>
+  <link rel="stylesheet" href="../../../style.css">
+  <style>
+    /* selectores de descendencia y de grupo */
+    .lista-ejemplo li {
+      margin-bottom: 4px;
+    }
+    .lista-ejemplo li strong {
+      color: #3ba8ff;
+    }
+    h4, h5 {
+      color: #3ba8ff;
+    }
+  </style>
+</head>
+<body class="css-activity">
+
+  <!-- BUBBLES -->
+  <div class="bubble bubble-1"></div>
+  <div class="bubble bubble-2"></div>
+  <div class="bubble bubble-3"></div>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Wassim.</div>
+    <ul>
+      <li><a href="../../../index.html#about">Sobre mí</a></li>
+      <li><a href="../../../index.html#skills">Skills</a></li>
+      <li><a href="../../../actividades.html">Actividades</a></li>
+      <li><a href="../../../index.html#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="activities">
+    <h2>Actividad 3 — <span>Selectores avanzados</span></h2>
+    <div class="section-line"></div>
+
+    <p>En esta actividad usamos selectores de descendencia y de grupo para aplicar estilos a varios elementos a la vez.</p>
+
+    <div class="demo-container" style="margin-top:24px;padding:16px;border-radius:8px;border:1px solid rgba(255,255,255,0.15);background:rgba(0,0,0,0.4);">
+      <h4>Tareas de CSS</h4>
+      <ul class="lista-ejemplo">
+        <li><strong>Leer</strong> la lección de introducción.</li>
+        <li><strong>Practicar</strong> con la sintaxis básica.</li>
+        <li><strong>Probar</strong> diferentes colores y fuentes.</li>
+      </ul>
+      <h5>Observa cómo sólo el texto en &lt;strong&gt; dentro de la lista se marca en azul.</h5>
+    </div>
+
+    <p style="margin-top:24px;">
+      <a class="btn btn-outline" href="../../actividades.html">Volver al menú de actividades</a>
+    </p>
+  </section>
+
+</body>
+</html>
