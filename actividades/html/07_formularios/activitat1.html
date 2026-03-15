@@ -1,1 +1,62 @@
-casa
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad 1 - Formularios</title>
+  <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+
+  <!-- RED BUBBLES -->
+  <div class="bubble bubble-1"></div>
+  <div class="bubble bubble-2"></div>
+  <div class="bubble bubble-3"></div>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Wassim.</div>
+    <ul>
+      <li><a href="../../../index.html#about">Sobre mí</a></li>
+      <li><a href="../../../index.html#skills">Skills</a></li>
+      <li><a href="../../../actividades.html">Actividades</a></li>
+      <li><a href="../../../index.html#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="activities">
+    <h2>Actividad 1 — <span>Formularios</span></h2>
+    <div class="section-line"></div>
+
+    <p>En esta actividad creamos un formulario básico con diferentes tipos de campos.</p>
+
+    <form style="max-width:400px;margin-top:24px;display:flex;flex-direction:column;gap:12px;">
+      <label>
+        Nombre:
+        <input type="text" name="nombre" placeholder="Escribe tu nombre" style="width:100%;padding:8px;border-radius:4px;border:1px solid rgba(255,255,255,0.3);background:rgba(0,0,0,0.4);color:white;">
+      </label>
+
+      <label>
+        Correo electrónico:
+        <input type="email" name="email" placeholder="tucorreo@ejemplo.com" style="width:100%;padding:8px;border-radius:4px;border:1px solid rgba(255,255,255,0.3);background:rgba(0,0,0,0.4);color:white;">
+      </label>
+
+      <label>
+        Mensaje:
+        <textarea name="mensaje" rows="4" style="width:100%;padding:8px;border-radius:4px;border:1px solid rgba(255,255,255,0.3);background:rgba(0,0,0,0.4);color:white;"></textarea>
+      </label>
+
+      <label style="display:flex;align-items:center;gap:8px;">
+        <input type="checkbox" name="condiciones">
+        Acepto las condiciones
+      </label>
+
+      <button type="submit" class="btn btn-red" style="align-self:flex-start;">Enviar</button>
+    </form>
+
+    <p style="margin-top:24px;">
+      <a class="btn btn-outline" href="../../actividades.html">Volver al menú de actividades</a>
+    </p>
+  </section>
+
+</body>
+</html>
