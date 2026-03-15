@@ -257,6 +257,41 @@ section h2 span {
   background: rgba(232, 0, 29, 0.15);
 }
 
+/* HTML vs CSS groups inside activities menu */
+.html-group h2 {
+  color: #e8001d;
+}
+
+.css-group h2 {
+  color: #3ba8ff;
+}
+
+.css-group ul li a:hover {
+  border-color: #3ba8ff;
+  background: rgba(59, 168, 255, 0.18);
+}
+
+/* CSS accent on full CSS activity pages */
+body.css-activity .bubble {
+  background-color: #3ba8ff;
+}
+body.css-activity nav .logo {
+  color: #3ba8ff;
+}
+body.css-activity section h2 span {
+  color: #3ba8ff;
+}
+body.css-activity .section-line {
+  background: #3ba8ff;
+}
+body.css-activity .btn-red {
+  background: #3ba8ff;
+  border-color: #3ba8ff;
+}
+body.css-activity .btn-red:hover {
+  color: #3ba8ff;
+}
+
 /* ── FOOTER ── */
 footer {
   text-align: center;
