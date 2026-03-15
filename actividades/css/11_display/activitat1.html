@@ -2,20 +2,8 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Actividad 3 - Más selectores</title>
+  <title>Actividad - CSS - Display</title>
   <link rel="stylesheet" href="../../../style.css">
-  <style>
-    /* selectores de descendencia y de grupo */
-    .lista-ejemplo li {
-      margin-bottom: 4px;
-    }
-    .lista-ejemplo li strong {
-      color: #e8001d;
-    }
-    h4, h5 {
-      color: #e8001d;
-    }
-  </style>
 </head>
 <body class="css-activity">
 
@@ -36,19 +24,23 @@
   </nav>
 
   <section id="activities">
-    <h2>Actividad 3 — <span>Selectores avanzados</span></h2>
+    <h2>Actividad — <span>CSS - Display</span></h2>
     <div class="section-line"></div>
 
-    <p>En esta actividad usamos selectores de descendencia y de grupo para aplicar estilos a varios elementos a la vez.</p>
+    <p>En esta actividad vemos el comportamiento de elementos block, inline y flex.</p>
 
     <div class="demo-container" style="margin-top:24px;padding:16px;border-radius:8px;border:1px solid rgba(255,255,255,0.15);background:rgba(0,0,0,0.4);">
-      <h4>Tareas de CSS</h4>
-      <ul class="lista-ejemplo">
-        <li><strong>Leer</strong> la lección de introducción.</li>
-        <li><strong>Practicar</strong> con la sintaxis básica.</li>
-        <li><strong>Probar</strong> diferentes colores y fuentes.</li>
-      </ul>
-      <h5>Observa cómo sólo el texto en &lt;strong&gt; dentro de la lista se marca en rojo.</h5>
+<style>
+  .caja-inline { display: inline-block; padding: 10px; background: #555; margin: 2px; }
+  .caja-flex { display: flex; justify-content: space-between; background: #222; padding: 10px; margin-top: 10px; }
+  .caja-flex div { background: #e8001d; padding: 10px; }
+</style>
+<div class="caja-inline">Inline 1</div>
+<div class="caja-inline">Inline 2</div>
+<div class="caja-flex">
+  <div>Flex A</div>
+  <div>Flex B</div>
+</div>
     </div>
 
     <p style="margin-top:24px;">

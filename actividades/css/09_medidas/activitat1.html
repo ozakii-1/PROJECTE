@@ -2,20 +2,8 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Actividad 3 - Más selectores</title>
+  <title>Actividad - CSS - Medidas</title>
   <link rel="stylesheet" href="../../../style.css">
-  <style>
-    /* selectores de descendencia y de grupo */
-    .lista-ejemplo li {
-      margin-bottom: 4px;
-    }
-    .lista-ejemplo li strong {
-      color: #e8001d;
-    }
-    h4, h5 {
-      color: #e8001d;
-    }
-  </style>
 </head>
 <body class="css-activity">
 
@@ -36,19 +24,18 @@
   </nav>
 
   <section id="activities">
-    <h2>Actividad 3 — <span>Selectores avanzados</span></h2>
+    <h2>Actividad — <span>CSS - Medidas</span></h2>
     <div class="section-line"></div>
 
-    <p>En esta actividad usamos selectores de descendencia y de grupo para aplicar estilos a varios elementos a la vez.</p>
+    <p>En esta actividad practicamos unidades relativas (em, rem, vh, vw, %).</p>
 
     <div class="demo-container" style="margin-top:24px;padding:16px;border-radius:8px;border:1px solid rgba(255,255,255,0.15);background:rgba(0,0,0,0.4);">
-      <h4>Tareas de CSS</h4>
-      <ul class="lista-ejemplo">
-        <li><strong>Leer</strong> la lección de introducción.</li>
-        <li><strong>Practicar</strong> con la sintaxis básica.</li>
-        <li><strong>Probar</strong> diferentes colores y fuentes.</li>
-      </ul>
-      <h5>Observa cómo sólo el texto en &lt;strong&gt; dentro de la lista se marca en rojo.</h5>
+<style>
+  .caja-rem { width: 10rem; height: 5rem; background: #3ba8ff; margin-bottom: 10px; }
+  .caja-porcentaje { width: 50%; height: 50px; background: #e8001d; }
+</style>
+<div class="caja-rem">10rem x 5rem</div>
+<div class="caja-porcentaje">50% de ancho</div>
     </div>
 
     <p style="margin-top:24px;">

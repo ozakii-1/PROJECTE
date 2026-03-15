@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad 5 - Selectores (Mis Vacaciones)</title>
+  <link rel="stylesheet" href="../../../style.css">
+  <style>
+    /* Estilos para el ejercicio 'Mis vacaciones' */
+    .vacaciones-container {
+      margin-top: 24px;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(5px);
+    }
+    
+    /* Selector de etiqueta */
+    h1 {
+      color: #e8001d; /* Rojo del portfolio */
+      text-align: center;
+      margin-bottom: 5px;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    h2 {
+      color: #aaaaaa;
+      text-align: center;
+      margin-bottom: 25px;
+      font-weight: 400;
+    }
+    p {
+      line-height: 1.8;
+      margin-bottom: 20px;
+      color: #cccccc;
+      font-size: 1.1rem;
+    }
+
+    /* Selector de clase (usado para destacar peligro/calor) */
+    .peligro {
+      color: #ff4d4d;
+      font-weight: bold;
+    }
+    .calor {
+      background: rgba(232, 0, 29, 0.15);
+      padding: 0 5px;
+      border-radius: 3px;
+    }
+
+    /* Selector de ID (para el clímax final) */
+    #climax {
+      border-left: 4px solid #e8001d;
+      padding-left: 15px;
+      font-style: italic;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- RED BUBBLES -->
+  <div class="bubble bubble-1"></div>
+  <div class="bubble bubble-2"></div>
+  <div class="bubble bubble-3"></div>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Wassim.</div>
+    <ul>
+      <li><a href="../../../index.html#about">Sobre mí</a></li>
+      <li><a href="../../../index.html#skills">Skills</a></li>
+      <li><a href="../../../actividades.html">Actividades</a></li>
+      <li><a href="../../../index.html#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="activities">
+    <h2>Actividad 5 — <span>Mis Vacaciones (Selectores)</span></h2>
+    <div class="section-line"></div>
+    <p>Aplicando estilos creativos con <strong>selectores de etiqueta, clase e ID</strong> al ejercicio oficial del curso.</p>
+
+    <div class="vacaciones-container">
+      <h1>Tenerife (Islas Canarias)</h1>
+      <h2>Subiendo a un volcán</h2>
+      
+      <p>Mis amigos y yo nos propusimos subir andando hasta la cima del volcán más alto de España: el Teide. <span class="calor">El calor nos abrasó</span> y a los pocos minutos vaciamos todas las cantimploras. A la hora siguiente notamos como las lagartijas nos perseguían con cierta distancia mientras se relamían los labios. Parecía que esa noche iban a cenar caliente.</p>
+      
+      <p>Otra hora más tarde uno de mis amigos se torció el tobillo y decidimos <span class="peligro">abandonarlo a su suerte</span>. Nunca más supimos de él, esperemos que esté en un sitio mejor.</p>
+      
+      <p>La siguiente hora notamos la ausencia del oxígeno. Respirábamos porque teníamos el hábito. <span class="peligro">Dos más cayeron en el olvido.</span></p>
+      
+      <p>La última hora notamos un poco de hambre de tanto andar. Optamos por el <span class="peligro">canibalismo</span>.</p>
+      
+      <p id="climax">Solo quedé yo. ¡Qué vistas! Hasta podía ver la isla de Gran Canaria. Valió la pena cada zancada, camiseta escurrida, agujetas en las piernas y pérdidas humanas. Estaba a tanta altura que casi podía tocar las estrellas con la punta de mis dedos. Era la oportunidad de maravillarme del volcán y encontrar nuevos amigos.</p>
+    </div>
+
+    <p style="margin-top:24px; text-align: center;">
+      <a class="btn btn-outline" href="../../actividades.html">Volver al menú de actividades</a>
+    </p>
+
+  </section>
+
+</body>
+</html>
