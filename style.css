@@ -222,6 +222,41 @@ section h2 span {
   margin-bottom: 20px;
 }
 
+/* ── ACTIVITIES MENU LIST ─ */
+#activities h3 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+#activities ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+#activities ul li a {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.15);
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  background: rgba(0,0,0,0.4);
+}
+
+#activities ul li a:hover {
+  border-color: #e8001d;
+  color: white;
+  background: rgba(232, 0, 29, 0.15);
+}
+
 /* ── FOOTER ── */
 footer {
   text-align: center;
