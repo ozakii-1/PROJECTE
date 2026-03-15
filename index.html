@@ -1,12 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wassim Aknibess — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Pasar a las actividades</h1>
-    <a href="actividades/actividades.html">Ir a las Actividades (Click Aquí)</a>
+
+  <!-- RED BUBBLES -->
+  <div class="bubble bubble-1"></div>
+  <div class="bubble bubble-2"></div>
+  <div class="bubble bubble-3"></div>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Wassim.</div>
+    <ul>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="actividades.html">Actividades</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hola, soy <span>Wassim</span><br/>Aknibess.</h1>
+        <p>Estudiante de 21 años y desarrollador web. Me gusta crear proyectos para practicar HTML, CSS y otras tecnologías.</p>
+        <div class="hero-buttons">
+          <a href="actividades.html" class="btn btn-red">Ver Actividades</a>
+          <a href="#contact" class="btn btn-outline">Contactar</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <!-- Usa tu propia foto si la añades al proyecto -->
+        <!-- <img src="foto.jpeg" alt="Foto de Wassim"> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>Sobre <span>Mí</span></h2>
+    <div class="section-line"></div>
+    <p>¡Hola! Soy Wassim, un estudiante apasionado por el desarrollo web. Este proyecto reúne mis actividades de HTML y CSS junto con mi portafolio personal.</p>
+    <p>Aquí podrás ver tanto información sobre mí como un acceso directo a todas las actividades que he realizado en clase.</p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Mis <span>Skills</span></h2>
+    <div class="section-line"></div>
+    <div class="skills-grid">
+      <div class="skill-tag">HTML</div>
+      <div class="skill-tag">CSS</div>
+      <div class="skill-tag">JavaScript</div>
+      <div class="skill-tag">Java</div>
+      <div class="skill-tag">React</div>
+      <div class="skill-tag">Bootstrap</div>
+      <div class="skill-tag">C</div>
+    </div>
+  </section>
+
+  <!-- ACTIVITIES -->
+  <section id="activities">
+    <h2>Mis <span>Actividades</span></h2>
+    <div class="section-line"></div>
+    <p>
+      Aquí puedes acceder al menú con todas las actividades de HTML y CSS realizadas en clase.
+    </p>
+    <a href="actividades/actividades.html" class="btn btn-red">Ir al Menú de Actividades</a>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contacto</h2>
+    <div class="section-line"></div>
+    <div class="contact-links">
+      <a href="mailto:wassimaknibess1@gmail.com" class="contact-item">
+        <span class="icon">✉</span>
+        <span>wassimaknibess1@gmail.com</span>
+      </a>
+      <a href="https://github.com/ozakii-1" target="_blank" class="contact-item">
+        <span class="icon">⌥</span>
+        <span>github.com/ozakii-1</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Wassim Aknibess</p>
+  </footer>
+
 </body>
 </html>
